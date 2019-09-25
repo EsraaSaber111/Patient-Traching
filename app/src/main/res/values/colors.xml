@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0097A7</color>
+    <color name="colorPrimaryDark">#00838F</color>
+    <color name="colorAccent">#00838F</color>
+    <color name="colorDarkTrans">#a0000000</color>
+    <color name="steelBlue">#82B1FF</color>
+    <color name="button">#a026C6DA</color>
+    <color name="background">#ecf0f1</color>
+    <color name="text">#006064</color>
+    <color name="Background">#ECF0F1</color>
+    <color name="Buttons">#A026C6Da</color>
+    500
+    #2196F3
+    50
+    #E3F2FD
+    100
+    #BBDEFB
+    200
+    #90CAF9
+    300
+    #64B5F6
+    400
+    #42A5F5
+    500
+    #2196F3
+    600
+    #1E88E5
+    700
+    #1976D2
+    800
+    #1565C0
+    900
+    #0D47A1
+    A100
+    #82B1FF
+    A200
+    #448AFF
+    A400
+    #2979FF
+    A700
+    #2962FF
+
+</resources>

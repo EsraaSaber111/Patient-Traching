@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Helping Hand</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="sign_in">Sign in</string>
+    <string name="title_activity_patient_request">Map</string>
+    <string name="title_activity_near_hosipital">Map</string>
+    <string name="title_activity_request_">Map</string>
+    <string name="title_activity_requests_pat">Map</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.omar.myapplication">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home_pramdic" />
+        <activity android:name=".Login" />
+        <activity android:name=".patient_home" />
+        <activity android:name=".Home_doctor" />
+        <activity android:name=".Home_patient" />
+        <activity android:name=".Register" />
+        <activity android:name=".Chat_box" />
+        <activity android:name=".Chat_box_doctor" />
+        <activity android:name=".chat_doctor" />
+        <activity android:name=".Signal_patient" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+        <activity
+            android:name=".Patient_request"
+            android:label="@string/title_activity_patient_request" />
+        <activity
+            android:name=".NearHosipital"
+            android:label="@string/title_activity_near_hosipital" />
+        <activity
+            android:name=".RequestsPat"
+            android:label="@string/title_activity_requests_pat" />
+        <activity android:name=".Register_next"
+            />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".BluetoothActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".vaildation"></activity>
+    </application>
+
+</manifest>

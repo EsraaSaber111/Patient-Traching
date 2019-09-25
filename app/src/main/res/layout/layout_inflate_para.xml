@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/paralist"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/descibation"
+        android:layout_alignLeft="@+id/descibation"
+        android:layout_alignStart="@+id/descibation"
+        android:text="User"
+        android:textSize="20dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
+        android:id="@+id/descibation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/myphoto"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/myphoto"
+        android:layout_toRightOf="@+id/myphoto"
+        android:text="Statue"
+        android:textSize="15dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <Button
+        android:id="@+id/btnmoss"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:text="Cancel"
+        tools:ignore="RelativeOverlap" />
+
+    <com.alexzh.circleimageview.CircleImageView
+
+        android:id="@+id/myphoto"
+        android:layout_width="48dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btnmoss"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>
